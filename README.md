@@ -68,3 +68,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### mocked report
+
+I was in room 12 with Mrs Smith
+Seemed happy today, good mood.
+Walking OK with walker, no pain seen.
+Ate well, but needs to drink more water.
+Gave Aspirin and mitolasone, no issues.
+Skin looks good, no sores.
+Chatty with staff and others, hearing aid working.
+Important: Complained about left knee, keep an eye on it, no swelling though.
+To Do: More water reminders, check on knee if keeps hurting.
+
+"Ich war in Zimmer 32 bei Herrn Grauer.
+Er schien heute glücklich zu sein, gute Stimmung.
+Läuft gut mit dem Gehwagen, kein Schmerz zu sehen.
+Hat gut gegessen, muss aber mehr Wasser trinken.
+Aspirin und Mitolasone gegeben, keine Probleme.
+Haut sieht gut aus, keine Wunden.
+Plauderte mit dem Personal und anderen, Hörgerät funktioniert.
+Wichtig: Beschwert sich über Rückenschmerzen, im Auge behalten, aber keine Schwellung.
+Zu erledigen: Mehr Wasser-Erinnerungen, Rücken überprüfen, falls es weiter schmerzt."

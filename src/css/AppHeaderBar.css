@@ -1,0 +1,68 @@
+/* appHeaderBar.css */
+.root {
+    overflow: hidden;
+    position: relative;  /* make sure the video is contained within the root */
+}
+
+
+.logo {
+    max-height: 55px;
+}
+
+.toolBar {
+    background-color: rgba(0, 0, 0, 0.5);  /* semi-transparent background */
+    z-index: 1;  /* ensure AppBar is above the video */
+    display: flex; /* ensures the toolbar is a flex container */
+    justify-content: center; /* centers the title */
+}
+
+
+.title {
+    color: white; /* or any color you prefer */
+    z-index: 19999;  /* ensure AppBar is above the video */
+    text-align: center;
+}
+
+.menuButton {
+    margin-left: auto; /* pushes the IconButton to the right end */
+}
+
+.background-video-container {
+    position: absolute;
+    opacity: 1; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: height 0.5s ease-in-out, opacity 0.5s ease-in-out; ; 
+}
+
+.expanded-video {
+    height: 100vh;
+    opacity: 0.7;
+    transition: height 3s ease-in-out, opacity 1s ease-in-out; ; 
+}
+
+.processing-overlay {
+    position: fixed; /* Makes the div overlay on top */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex; /* Centers the inner content */
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; /* Ensures this div stays on top of others */
+    font-size: 4rem; /* Adjust as needed */
+    color: black; /* Adjust as needed */
+
+    opacity: 0; /* start with invisible text */
+    visibility: hidden; /* this is added to hide the element */
+    transition: opacity 1s ease-in-out, visibility 1s; /* added visibility transition */
+}
+
+.processing-overlay.show-text {
+    opacity: 1; /* make text visible */
+    visibility: visible; /* this is added to show the element */
+}

@@ -1,0 +1,52 @@
+/* NotesList.css */
+.notes-list {
+    max-height: 200px; /* Adjust as needed */
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.note-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+}
+
+.note-item:last-child {
+    border-bottom: none;
+}
+
+/* NotesList.css */
+
+.note-item {
+    cursor: pointer;
+    /* ... other styles ... */
+}
+
+.note-item:hover {
+    background-color: #f5f5f5;  
+}
+
+
+/* ... existing styles ... */
+
+@keyframes explode {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.4);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+.note-item.exploding {
+    animation: explode 1s forwards;
+}
